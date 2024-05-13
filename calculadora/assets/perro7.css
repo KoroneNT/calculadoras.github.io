@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(img/pngtree-image-of-many-dogs-posing-against-a-black-background-image_2909685.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.container {
+    background: #ffffff;
+    margin-top: 10px;
+    padding: 25px;
+    width: 450px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+.input-box {
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#result {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.flex{
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin: 0;
+}
+.footer-content {
+
+    max-width: 960px;
+    margin: 0 auto;
+}
